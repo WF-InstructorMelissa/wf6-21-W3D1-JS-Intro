@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./css/styles.css'>
     <title>Intro to JS</title>
 </head>
 <body>
     <h1>Intro to JS</h1>
-    <div class='alert'>
+    <div class='alert'></div>
         <h4>Lets print a string to an alert button</h4>
         <input type='button' onclick='stringAlert()' value='String Alert Button'>
     </div>
@@ -16,15 +17,24 @@
         <input type='button' onclick="numberAlert()" value='Number Alert Button'>
         <input type='button' onclick='numberAlertString()' value='Number Alert w/number and String'>
     </div>
-    <div class='alert'>
+    <!-- <div class='alert'>
         <h4>Lets print True if the true button is clicked</h4>
         <input type='button' onclick='' value='True'>
         <input type='button' onclick='' value='False'>
-    </div>
+    </div> -->
     <div class='alert'>
         <h4>Print an array to an alert</h4>
         <input type='button' onclick='array01Alert()' value='String Array'>
-        <input type='button' onclick='array02Alert()' value='Number Array'>
+    </div>
+    <div class='alert'>
+        <h4>Lets add 2+4 in a function</h4>
+        <input type='button' onclick='add()' value='Add 2+4'>
+    </div>
+    <div class='alert'>
+        <h4>If statement/ for loop</h4>
+        <input type='button' onclick='ifLoop()' value='If Loop Function'>
+        <input type='button' onclick='ifLoop2()' value='If Loop Function 2'>
+        <input type='button' onclick='ifLoop3()' value='If Loop Function 3'>
     </div>
     <script src='./js/scripts.js'></script>
 </body>

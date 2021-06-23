@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+    color: black;
+}
+header img {
+    width: 50px;
+}
+img {
+    max-width: 75px;
+}
+hr {
+    height: 5px;
+}
